@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin = "16dp"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/height"
+            android:padding="10dip" />
+        <TextView
+            android:id="@+id/height"
+            android:text="@string/height_default"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/weight"
+            android:padding="10dip"/>
+        <TextView
+            android:text="@string/weight_default"
+            android:id="@+id/weight"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/bmi"
+            android:padding="10dip"/>
+        <TextView
+            android:text="@string/bmi_default"
+            android:id="@+id/bmi"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/bmi_status_default"
+            android:padding="10dip"
+            android:id="@+id/bmiResult"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50dip">
+        <Button
+            android:text="@string/modify_data"
+            android:onClick="modifyData"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="height">Height (m)</string>
+    <string name="height_default">1.5</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="weight_default">50</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_default">22.2</string>
+    <string name="bmi_status_default">Healthy weight</string>
+    <string name="modify_data">Modify Data</string>
+    <string name="done">Done</string>
+</resources>
